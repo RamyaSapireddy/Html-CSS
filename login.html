@@ -15,7 +15,7 @@
         margin: 0 15px;
         text-decoration: none;
         color: #000;
-        font-size: 13px;
+        font-size: 16px;
         font-family: Arial, sans-serif;
         font-weight: bold;
     }
@@ -37,7 +37,12 @@
     position: absolute;
     top: 25%;
     right: 0px;
+    background-color: #000;
+    color: white;
   
+    }
+     .input button:hover{
+        background-color:teal
     }
     .container{
         display: flex;
@@ -49,6 +54,25 @@
         background-color:#a9d5a9;
         margin-top: 20px;
     }
+    .submit {
+    color: white;
+    background-color: teal;
+    border: 1px solid teal;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    
+    margin-top: 20px;
+    margin-left: 30px;
+    transition: all 0.3s ease;
+}
+
+.submit:hover {
+    background-color: white;
+    color: teal;
+    border: 1px solid teal;
+}
+
 </style>
 <body>
    <div style="display:flex">
@@ -75,16 +99,19 @@
             </nav> 
     </div>
     <div style="display: flex;">
-    <div style="margin-top: 50px;border:1px solid gray;margin-left: 120px;width:500px;height:200px;border-radius: 5px;">
+    <div style="margin-top: 50px;border:1px solid gray;margin-left: 120px;width:550px;height:250px;border-radius: 5px;">
         <h2 style="padding-left: 20px;font-family: Arial, Helvetica, sans-serif;font-size: 15px;">Login</h2>
         <form method="post">
             <input type="email"placeholder="Your Email" style="margin-left:30px;padding-left:20px;width:400px;height:30px;border-radius: 5px;border:1px solid gray"><br>
     
             <input type="password"placeholder="Your Password" style="margin-top:20px;margin-left:30px;padding-left:20px;width:400px;height:30px;border-radius: 5px;border:1px solid gray" ><br>
-            <input type="submit" value="Login" style="color:white;background-color:teal ;border:1px solid teal;border-radius: 5px;font-family: Arial, Helvetica, sans-serif;font-size: 12px;width:50px;height:30px;margin-top:20px;margin-left:30px">
+            
+            <input class="submit" type="submit" value="Login" style="width: 50px;height: 30px;">
+
+           
         </form>
     </div>
-    <div style="margin-top: 50px;border:1px solid gray;margin-left: 180px;width:550px;height:300px;border-radius: 5px;">
+    <div style="margin-top: 50px;border:1px solid gray;margin-left: 100px;width:600px;height:300px;border-radius: 5px;">
         <h2 style="padding-left: 20px;font-family: Arial, Helvetica, sans-serif;font-size: 15px;">Create an Account</h2>
         <form method="post">
             <input type="text"placeholder="Username" style="margin-left:30px;padding-left:20px;width:400px;height:30px;border-radius: 5px;border:1px solid gray"><br>
@@ -92,7 +119,7 @@
             <input type="email"placeholder="Your Email" style="margin-top:20px;margin-left:30px;padding-left:20px;width:400px;height:30px;border-radius: 5px;border:1px solid gray"><br>
             <input type="password"placeholder="Your Password" style="margin-top:20px;margin-left:30px;padding-left:20px;width:400px;height:30px;border-radius: 5px;border:1px solid gray"><br>
             <input type="password"placeholder="Confirm Password" style="margin-top:20px;margin-left:30px;padding-left:20px;width:400px;height:30px;border-radius: 5px;border:1px solid gray"><br>
-            <input type="submit" value="Submit & Register" style="color:white;background-color:teal ;border:1px solid teal;border-radius: 5px;font-family: Arial, Helvetica, sans-serif;font-size: 12px;width:120px;height:30px;margin-top:20px;margin-left:30px">
+            <input class="submit" type="submit" value="Submit & Register" style="width:120px;height:30px;">
         </form>
     </div>
     </div>
@@ -102,11 +129,48 @@
         <h4 style="padding-left:200px;padding-top:10px;font-size: 18px;"> ...and receive $25 coupon for first shopping</h4>
         <div class="input">
         <input type="email"placeholder=" Enter Your Email" style="margin-left:100px;margin-top:20px;padding-left:20px;width:400px;height:40px;border-radius: 5px;border:1px solid gray">
-        <button style="width:100px;height:43px;background-color: #000;color: white;">Subscribe</button>
+        <button style="width:100px;height:43px">Subscribe</button>
         </div>
         
     </div>
-
-
+    <div style="display: flex;">
+        
+    <div style="display: block;">
+        
+        <img src="./assets/logo.png" width="150px"style="margin-left: 100px;margin-top: 10px;">
+        <h4 style="color:gray;margin-left:100px">Contact</h4>
+        <p style="margin-left:100px;color:gray"><b style="color: #000;">Address:</b>13 Temple street,Hyderabad</p>
+        <p style="margin-left:100px;color:gray"><b style="color: #000;">Phone:</b>+91 2345567788</p>
+        <p style="margin-left:100px;color:gray"><b style="color: #000;">Hours:</b>10:00 - 18:00,Mon-Sat</p>
+        <h4 style="color:gray;margin-left:100px">Follow Me</h4>
+        <img src="./assets/facebook.png" width="25px" height="25px" style="margin-left: 100px;">
+        <img src="./assets/twitter.png" width="20px" height="20px" style="margin-left: 5px;">
+        <img src="./assets/instagram.png" width="20px" height="20px" style="margin-left:5px;">
+        <img src="./assets/pinterest.png" width="20px" height="20px" style="margin-left: 5px;">
+        <img src="./assets/youtube.png" width="20px" height="20px" style="margin-left: 5px;">
+    </div>
+    <div style="display:block;margin-left: 100px;">
+        <h4 style="color:#000;margin-left: 100px;">Address</h4>
+        <p style="margin-left:100px;color:gray">About Us</p>
+        <p style="margin-left:100px;color:gray">Delivery Information</p>
+        <p style="margin-left:100px;color:gray">Privacy Policy</p>
+        <p style="margin-left:100px;color:gray">Terms & Conditions</p>
+        <p style="margin-left:100px;color:gray">Contact Us</p>
+        <p style="margin-left:100px;color:gray">Support Center</p>
+    </div>
+    <div style="display:block">
+        <h4 style="color:#000;margin-left: 100px;">My Account</h4>
+        <p style="margin-left:100px;color:gray">Sign In</p>
+        <p style="margin-left:100px;color:gray">View Cart</p>
+        <p style="margin-left:100px;color:gray">My Wishlist</p>
+        <p style="margin-left:100px;color:gray">Track My Order</p>
+        <p style="margin-left:100px;color:gray">Help</p>
+        <p style="margin-left:100px;color:gray">Order</p>
+    </div>
+    <div style="display:block">
+        <h4 style="color:#000;margin-left: 100px;">Secured Payed Gateways</h4>
+        <img src="./assets/payment-method.png" width="200px" height="30px" style="margin-left: 100px;">
+    </div>
+  </div>
 </body>
 </html>
