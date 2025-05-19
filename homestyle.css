@@ -1,0 +1,134 @@
+
+    nav {
+        display: flex;
+        padding: 15px;
+        padding-left:40px
+    }
+    nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #000;
+        font-size: 16px;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+    }
+    .input{
+        position:relative
+    }
+    .input img{
+  position: absolute;
+  top: 20%;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+    }
+    .image-container {
+  position: relative;
+  display: inline-block;
+
+}
+
+.main-img {
+  width: 260px;
+  height: 260px;
+  border-radius: 10px;
+  margin-left: 40px;
+  margin-top: 15px;
+}
+.main-img1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin-left: 40px;
+  margin-top: 15px;
+}
+
+/* Ensure previews are hidden by default */
+.preview-images {
+  display: none;
+  position: absolute;
+  left: 120px;
+  top: 100px;
+  flex-direction: row;
+  gap: 10px;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px rgba(0,0,0,0.1);
+}
+
+/* Show only on hover */
+.image-container:hover .preview-images {
+  display: flex;
+}
+.img-hover-1:hover .main-img1 {
+  content: url('./assets/product-1-2.jpg');
+}
+
+.img-hover-2:hover .main-img1 {
+  content: url('./assets/product-2-2.jpg');
+}
+
+.img-hover-3:hover .main-img1 {
+  content: url('./assets/product-3-2.jpg');
+}
+.img-hover-4:hover .main-img1 {
+  content: url('./assets/product-4-2.jpg');
+}
+
+/* Unique image switch on hover */
+.img-hover-1:hover .main-img {
+  content: url('./assets/product-1-2.jpg');
+}
+
+.img-hover-2:hover .main-img {
+  content: url('./assets/product-2-2.jpg');
+}
+
+.img-hover-3:hover .main-img {
+  content: url('./assets/product-3-2.jpg');
+}
+.img-hover-4:hover .main-img {
+  content: url('./assets/product-4-2.jpg');
+}
+.img-hover-5:hover .main-img {
+  content: url('./assets/product-5-2.jpg');
+}
+.img-hover-6:hover .main-img {
+  content: url('./assets/product-6-2.jpg');
+}
+.img-hover-7:hover .main-img {
+  content: url('./assets/product-7-2.jpg');
+}
+.img-hover-8:hover .main-img {
+  content: url('./assets/product-8-2.jpg');
+}
+.footer{
+        display: flex;
+        background-color:#a9d5a9;
+        margin-top: 20px;
+    }
+    .input button{
+    position: absolute;
+    top: 25%;
+    right: 0px;
+    background-color: #000;
+    color: white;
+  
+    }
+    .line{
+        position: absolute;
+    }
+     .input button:hover{
+        background-color:teal
+    }
+
+
+
+
+
+.preview-images img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
