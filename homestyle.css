@@ -12,6 +12,18 @@
         font-family: Arial, sans-serif;
         font-weight: bold;
     }
+    nav a.active {
+      color: teal;
+  }
+  .navnew{
+    padding-left: 100px;
+    margin: 0 5px;
+}
+.container{
+  display: flex;
+  background-color:#d3d3d3;
+  margin-top: 20px;
+}
     .input{
         position:relative
     }
@@ -80,6 +92,18 @@
 .img-hover-1:hover .main-img {
   content: url('./assets/product-1-2.jpg');
 }
+.img-hover-9:hover .main-img {
+    content: url('./assets/product-10-2.jpg');
+  }
+  .img-hover-10:hover .main-img {
+    content: url('./assets/product-11-2.jpg');
+  }
+.img-hover-11:hover .main-img {
+    content: url('./assets/product-12-2.jpg');
+  }
+.img-hover-12:hover .main-img {
+    content: url('./assets/product-13-2.jpg');
+  }
 
 .img-hover-2:hover .main-img {
   content: url('./assets/product-2-2.jpg');
