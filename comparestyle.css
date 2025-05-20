@@ -1,0 +1,105 @@
+
+nav {
+    display: flex;
+    padding: 15px;
+    padding-left:40px
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+nav a.active {
+    color: teal;
+}
+
+.navnew{
+    padding-left: 100px;
+    margin: 0 5px;
+}
+.input{
+    position:relative
+}
+.input img{
+position: absolute;
+top: 20%;
+right: 10px;
+width: 20px;
+height: 20px;
+}
+.input button{
+position: absolute;
+top: 25%;
+right: 0px;
+background-color: #000;
+color: white;
+
+}
+ .input button:hover{
+    background-color:teal
+}
+.container{
+    display: flex;
+    background-color:#d3d3d3;
+    margin-top: 20px;
+}
+.footer{
+    display: flex;
+    background-color:#a9d5a9;
+    margin-top: 20px;
+}
+.submit {
+color: white;
+background-color: teal;
+border: 1px solid teal;
+border-radius: 5px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+
+margin-top: 20px;
+margin-left: 30px;
+transition: all 0.3s ease;
+}
+
+.submit:hover {
+background-color: white;
+color: teal;
+border: 1px solid teal;
+}
+.tdh3{
+    border:1px solid gray;
+    width:50px;
+    justify-items: center;
+    padding-left: 10px;
+}
+.tdborder{
+    border:1px solid gray;width:200px;justify-items: center;
+    text-align: center; vertical-align: middle;height:50px
+}
+.tdimg{
+    width:350px ;
+    height:300px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;display:block
+}
+.colorimg{
+    width:100px ;
+    height:50px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+.deleteimg{
+    width:20px ;
+    height:20px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    justify-content: center;
+}
